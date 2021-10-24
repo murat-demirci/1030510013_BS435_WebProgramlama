@@ -1,6 +1,6 @@
 var random = Math.round(Math.random() * 999);
 
-var files = ["photos/batman.png", "photos/joker.png"];
+var files = ["photos/cat.png", "photos/dog.png"];
 
 const first = document.querySelector(".first");
 const second = document.querySelector(".second");
