@@ -10,24 +10,8 @@ body {
   text-align: center;
   font-size: 20px;
   font-family: 'Merriweather';
-  background: linear-gradient(270deg, #2a5bf5, #b800fd, #6d0694, #02f9ba);
-  background-size: 400% 400%;
-  animation: gradient 12s ease infinite;
   height: 100vh;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
+  background-color: #FEE1C5;
 }
 
 .container {
@@ -37,14 +21,14 @@ body {
 h1{
   margin: 50px 0 0 0;
   font-size: 50px;
-  color: white;
+  color: black;
 }
 h2{
-  color: white;
+  color: black;
 }
 p {
   font-size: 28px;
-  color: white;
+  color: black;
 }
 
 .flip-card-container {
@@ -218,7 +202,7 @@ p {
 
 @keyframes example {
   0% {
-    color: white;
+    color: black;
   }
 
   25% {
@@ -230,13 +214,12 @@ p {
   }
 
   100% {
-    color: white;
+    color: black;
   }
 }
 
 a {
   animation: example 5s ease infinite;
-  background: linear-gradient(45deg);
    font-family: 'Merriweather';
    font-weight: bold;
 }
